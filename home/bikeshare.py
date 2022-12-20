@@ -28,7 +28,7 @@ def get_filters():
     
     while True:                
        
-        # 1- inner while loop to get the valid city input
+        # First inner while loop to get the valid city input
    
         while True:
             city = input("What cities do you want to search for: New York City, Chicago or Washington? Use commas to list the names.\n>").lower()
@@ -57,7 +57,7 @@ def get_filters():
                 continue;
             break;
 
-        # 2- inner while loop to get the valid Months input
+        # Second inner while loop to get the valid Months input
         while True:
             month = input("What months do you want to filter data on? Use commas to list the names or enter 'all' to get all months data.\n>").lower()
             validInputFlag = True
@@ -88,7 +88,7 @@ def get_filters():
                 
             break;           
         
-        # 3- inner while loop to get the valid Days input
+        # Third inner while loop to get the valid Days input
         while True:
             
             day = input("What weekdays do you want to filter data on? Use commas to list the names or enter 'all' to get all day data.\n>").lower()
