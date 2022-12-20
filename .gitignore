@@ -1,5 +1,5 @@
 .github/**
-/washington.csv
-/new_york_city.csv
-/chicago.csv
-/bikeshare.py
+/home/washington.csv
+/home/new_york_city.csv
+/home/chicago.csv
+/home/bikeshare.py
