@@ -13,6 +13,7 @@ Bikeshare project using python to read and analyzing bike share data based on th
 file used for bikeshare project is : 
 washington.csv
 new_york_city.csv
+new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
