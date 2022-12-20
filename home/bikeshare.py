@@ -2,12 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = { 'chicago': 'chicago.csv', 'new york city': 'new_york_city.csv', 'washington': 'washington.csv' }
 Months = ('january', 'february', 'march', 'april', 'may', 'june')
-Weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
-            'saturday')
+Weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday')
 
 def get_filters():
     """
@@ -182,18 +179,13 @@ def time_stats(df):
 
     # TO DO: display the most common month
     print('Most common month is :', df['Month'].mode()[0],'\n')
-    
-#pd.read.cxv
-     
+       
     # TO DO: display the most common day of week
     print('Most common day is :', df['Weekday'].mode()[0],'\n')
 
-
     # TO DO: display the most common start hour
-
     print('Most common Start Hour is :', df['Start Time'].mode()[0],'\n')
-
-    
+   
     print("\nThis took %s seconds." % (time.time() - start_time),'\n')
     print('-'*40)
 
@@ -215,8 +207,6 @@ def station_stats(df):
     mostFreq = df['Station combination'].mode()[0]
     print('Most frequent combination of start station and end station tripis :', mostFreq,'\n')
     
-    
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -245,7 +235,6 @@ def user_stats(df):
     start_time = time.time()
 
     # TO DO: Display counts of user types
- #   userTypeCount = len(set(df['User Type']))
     print('Counts of user types is : ', df['User Type'].value_counts(), '\n')
     
     # TO DO: Display counts of gender
