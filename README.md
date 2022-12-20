@@ -4,7 +4,7 @@
 bikeshare project was created at 24 november 2022. 
 
 ### Project Title
-post bikeshare project on github
+Post bikeshare project on github
 
 ### Description
 Bikeshare project using python to read and analyzing bike share data based on the user preference filter.
@@ -16,6 +16,6 @@ new_york_city.csv
 new_york_city.csv
 
 ### Credits
-Udacity classes is very helpful and has enrichment information helped a lot ! 
+Udacity classes is very helpful and has enrichment information it's helped a lot ! 
 
 
